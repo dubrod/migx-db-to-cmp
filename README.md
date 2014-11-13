@@ -59,3 +59,18 @@ We assume you have already Installed MIGX via Package Manager
 
 ![cmptab Setup](https://dl.dropboxusercontent.com/u/4277345/MODX/migx-to-cmp/cmp-tab.png) 
 
+##5. System > Menus
+ - "Create Menu" for parent. Example: Lexicon = "Maps"
+ - you might not want a parent
+ - Create again, Lexicon = "Interactive Map"
+
+![cmpmenu Setup](https://dl.dropboxusercontent.com/u/4277345/MODX/migx-to-cmp/cmp-menu.png)
+
+ - action = index
+ - parameters = &configs=interactivemap||migxconfigs||setup
+ - **Note the base_name in that string**
+ - namespace = migx
+
+![menu Setup](https://dl.dropboxusercontent.com/u/4277345/MODX/migx-to-cmp/update-menu.png)
+
+##Your Setup is Complete!
