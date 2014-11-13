@@ -14,3 +14,5 @@ We assume you have already Installed MIGX via Package Manager
  - TV name = **base_name**
  - TV Input Type = migxdb
  - Configuration = *base_name**
+
+[!https://dl.dropboxusercontent.com/u/4277345/MODX/migx-to-cmp/tv-setup.png]
