@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model package="interactivemap" baseClass="xPDOObject" platform="mysql" defaultEngine="MyISAM" version="1.1">
+    <object class="interactivemap" table="interactivemap" extends="xPDOSimpleObject">
+	  <field key="photo" dbtype="text" phptype="string" null="false" default="" />
+		<field key="simplename" dbtype="varchar" precision="255" phptype="string" null="false" default=""/>
+		<field key="fullname" dbtype="varchar" precision="255" phptype="string" null="false" default=""/>
+    <field key="category" dbtype="varchar" precision="255" phptype="string" null="false" default=""/>
+		<field key="location" dbtype="varchar" precision="255" phptype="string" null="false" default=""/>        
+		<field key="quip" dbtype="varchar" precision="255" phptype="string" null="false" default=""/>
+		<field key="link" dbtype="varchar" precision="255" phptype="string" null="false" default=""/>		
+		<field key="centergps" dbtype="text" phptype="string" null="false" default=""/>
+		<field key="startgps" dbtype="text" phptype="string" null="false" default=""/>
+		<field key="points" dbtype="text" phptype="string" null="false" default=""/>
+		<field key="zip" dbtype="int" precision="10" phptype="string" null="false" default=""/>
+		<field key="createdon" dbtype="datetime" phptype="datetime" null="true"/>
+    <field key="createdby" dbtype="int" precision="10" attributes="unsigned" phptype="integer" null="false" default="0" />
+    <field key="editedon" dbtype="datetime" phptype="datetime" null="true"/>
+    <field key="editedby" dbtype="int" precision="10" attributes="unsigned" phptype="integer" null="false" default="0" />
+		<field key="deleted" dbtype="tinyint" precision="1" attributes="unsigned" phptype="integer" null="false" default="0" />
+		<field key="deletedon" dbtype="datetime" phptype="datetime" null="false" />
+		<field key="deletedby" dbtype="int" precision="10" phptype="integer" null="false" default="0" />
+    <field key="published" dbtype="tinyint" precision="1" attributes="unsigned" phptype="integer" null="false" default="0" />  
+		<field key="publishedon" dbtype="datetime" phptype="datetime" null="false" />
+		<field key="publishedby" dbtype="int" precision="10" phptype="integer" null="false" default="0" />
+    <aggregate alias="CreatedBy" class="modUser" local="createdby" foreign="id" cardinality="one" owner="foreign"/>
+    <aggregate alias="EditedBy" class="modUser" local="editedby" foreign="id" cardinality="one" owner="foreign"/>
+    </object>
+</model>
