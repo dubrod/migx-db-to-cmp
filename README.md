@@ -74,3 +74,12 @@ We assume you have already Installed MIGX via Package Manager
 ![menu Setup](https://dl.dropboxusercontent.com/u/4277345/MODX/migx-to-cmp/update-menu.png)
 
 ##Your Setup is Complete!
+
+###Call it!
+
+In your tempalte or whereever.
+
+```
+[[migxLoopCollection? &packageName=`interactivemap` &classname=`interactivemap` &tpl=`interactivemap-row`]]
+```
+
