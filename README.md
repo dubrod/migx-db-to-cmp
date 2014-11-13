@@ -83,3 +83,8 @@ In your tempalte or whereever.
 [[migxLoopCollection? &packageName=`interactivemap` &classname=`interactivemap` &tpl=`interactivemap-row`]]
 ```
 
+###What the page looks like:
+
+![menu Setup](https://dl.dropboxusercontent.com/u/4277345/MODX/migx-to-cmp/cmp-page.png)
+
+
