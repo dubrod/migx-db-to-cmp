@@ -265,6 +265,12 @@ google.maps.event.addDomListener(window, 'load', initialize);
 }
 ```
 
+##Entry Screen
+
+![map](https://dl.dropboxusercontent.com/u/4277345/MODX/migx-to-cmp/entry-screen-one.png)
+![map](https://dl.dropboxusercontent.com/u/4277345/MODX/migx-to-cmp/entry-screen-two.png)
+
 ##Final Map
 
 ![map](https://dl.dropboxusercontent.com/u/4277345/MODX/migx-to-cmp/final-map.png)
+![map](https://dl.dropboxusercontent.com/u/4277345/MODX/migx-to-cmp/info-window.png)
