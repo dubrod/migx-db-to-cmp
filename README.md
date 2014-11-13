@@ -39,3 +39,23 @@ We assume you have already Installed MIGX via Package Manager
      - typically just *fieldname* and *caption* is needed
      - you can also define your **Input TV Type** here (image | listbox | richtext | textarea | etc) 
      - listbox example: click Input Options Tab > Input Option Values > `Commercial==commercial||Single Family==single-family||Multi-Family==multi-family||Legacy==legacy`
+     
+![FormTabs Setup](https://dl.dropboxusercontent.com/u/4277345/MODX/migx-to-cmp/published-items.png)
+
+   - **Columns**
+   - First column must be "Header" > "ID"  & "field" > "id"
+   - Enter additional columns you want to show from your input fields, *Page Title, category, etc*
+
+![Columns Setup](https://dl.dropboxusercontent.com/u/4277345/MODX/migx-to-cmp/columns.png)
+
+   - **MIGXdb-Settings**
+   - Package = **base_name**
+   - Classname = **base_name**
+
+![migxdb Setup](https://dl.dropboxusercontent.com/u/4277345/MODX/migx-to-cmp/migxdb-setting.png)
+
+   - **CMP-Settings**
+   - Captions for the manager page
+
+![cmptab Setup](https://dl.dropboxusercontent.com/u/4277345/MODX/migx-to-cmp/cmp-tab.png) 
+
