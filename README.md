@@ -31,7 +31,10 @@ We assume you have already Installed MIGX via Package Manager
  - CLICK "Create Tables" Tab > "Create Tables" Button
  
 ##4. MIGX Tab
- - name - **base_name**
+
+   - **Settings**
+     - name - **base_name**
+     - unique MIDX id - **base_name**
  
    - **Formtabs**
    - Add 1 Item - I call mine "Published Items"
